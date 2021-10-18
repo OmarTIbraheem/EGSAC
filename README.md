@@ -4,6 +4,7 @@ This is a complete Software Development Life Cycle (SDLC) for a JMS web applicat
 - Software Requirment Specification Document (SRS)
 - Software Design Description Document (SDD)
 - Implementation of MVC Framework
+- MySQL Database
 
 ## Features
 - Multiple User Interface | Hierarchical
