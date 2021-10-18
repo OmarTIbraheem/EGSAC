@@ -1,0 +1,114 @@
+.Report {
+    margin: 25px;
+} .Report h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333
+} .Report h3 {
+    position: relative;
+    top: 33px;
+    left: 15px;
+    display: inline-block;
+    color: #333;
+    background-color: #eee;
+} .Report form {
+    font-size: 18px;
+} .Report form div {
+    display: flex;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: #333 0px 0px 1px;
+} .Report form span {
+    padding: 3em;
+    margin: 1em;
+    flex: auto;
+    background-color: #fff;
+    border-radius: 15px;
+} .Report form label {
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 300;
+} .Report form input {
+    display: inline-block;
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #999;
+}  .Report form select {
+    display: inline-block;
+    width: 312px;
+    height: 45px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #999;
+} .Report form button {
+    height: 45px;
+    width: 100px;
+    margin-left: 15px;
+    font-size: 18px;
+    border: none;
+}
+
+.Log {
+    margin: 25px;
+} .Log h1 {
+    padding: 5px 25px;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #222;
+    background-color: #ddd;
+    border: 1px solid #fff;
+    border-radius: 3px;
+} .Log table {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+} .Log table tr {
+    text-align: center;
+} .Log table tr th {
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+} .Log table tr td {
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: 3px solid #eee;
+    border-left: 3px solid #eee;
+    border-right: 3px solid #eee;
+} .Log table tr:hover {
+    transition: ease-in 0.15s;
+    background-color: rgb(201, 211, 216);
+}
+
+.Log h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333
+} .Log form {
+    padding: 25px;
+    background-color: #ccc;
+} .Log form label {
+    margin-right: 15px;
+    font-size: 18px;
+} .Log form input {
+    width: 50%;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #999;
+} .Log form button {
+    margin-left: 33%;
+    font-size: 18px;
+    border: none;
+}

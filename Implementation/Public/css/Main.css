@@ -1,0 +1,265 @@
+/*________________________________________|iii|________________________________________*/
+
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track
+{
+  background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb
+{
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: #0066ff;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+    outline: solid 1px #78abf8;
+}
+
+i {
+    margin-right: 15px;
+}
+
+/*________________________________________|iii|________________________________________*/
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    font-family: 'Lato';
+}
+
+/*________________________________________|Nav-Title|________________________________________*/
+
+.Title
+{
+    margin-left: 25px;
+    width: fit-content;
+}
+
+.Title p
+{
+    z-index: 2;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 35px;
+    font-family: 'poppins';
+    font-weight: 700;
+    margin: 3px 60px;
+    padding: 0;
+    color: #fff;
+}
+
+#spl
+{
+    z-index: 0;
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    background-image: linear-gradient(to bottom right, mediumblue, #0066ff, cyan);
+    opacity: 0.7;
+}
+
+/*________________________________________|Nav-Bar|________________________________________*/
+
+nav
+{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    background-color: #fff;
+    border-bottom: 1px solid #333;
+    box-shadow: #333 0px 0px 3px;
+}
+
+nav ul
+{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li a
+{
+    display: block;
+    width: 70px;
+    padding: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #222;
+    
+}
+
+nav ul li a:hover
+{
+    background-color: #e2e2e2;
+    border-bottom: 3px solid #0066ff;
+}
+
+.btn-user
+{
+    vertical-align: -2.7px;
+    margin-left: 25px;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    border: 3px solid #333;
+}
+
+.btn-user:hover
+{
+    background-color: #e2e2e2;
+}
+
+/*________________________________________|Menu|________________________________________*/
+
+.Menu
+{
+    position: absolute; 
+    display: block;
+    width: 300px;
+    height: 100%;
+    background-color: #1a1a1a;
+    overflow-y: auto;
+}
+
+.Menu ul
+{
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.Menu ul li a
+{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 15px;
+    color: #fff;
+    border-left: 3px solid transparent;
+}
+
+.Menu ul li a:hover
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #0066ff;
+    background-color: #2e2e2e;
+    border-left-color: crimson;
+    transition: 0.25s ease-in;
+}
+
+/*________________________________________|iii|________________________________________*/
+
+.Container
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px);
+    height: 100%;
+}
+
+.Content
+{
+    padding: 0.1px;
+    width: 100%;
+    min-height: calc(100% - 55px);
+    margin-bottom: 55px;
+    background-color: #eee;
+}
+
+.btn-default
+{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0px;
+    min-width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a1a1a;
+    border-radius: 1px;
+    opacity: 0.8;
+}
+
+.btn-info
+{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0px;
+    min-width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0033cc;
+    border-radius: 1px;
+    opacity: 0.8;
+}
+
+.btn-danger
+{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0px;
+    min-width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: crimson;
+    border-radius: 1px;
+    opacity: 0.8;
+}
+
+.btn-success
+{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0px;
+    min-width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #009900;
+    border-radius: 1px;
+    opacity: 0.8;
+    
+}
+
+.btn-default:hover, .btn-info:hover, .btn-danger:hover, .btn-success:hover
+{
+    opacity: 1;
+    box-shadow: #333 0px 0px 3px;
+    transition: all 0.15s;
+}

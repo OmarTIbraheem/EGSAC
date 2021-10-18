@@ -1,0 +1,578 @@
+/*________________________________________|Journal-Manage|________________________________________*/
+
+.Journal-Manage
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.Journal-Manage h2
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333
+}
+
+.Journal-Manage table
+{
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+.Journal-Manage table tr
+{
+    text-align: center;
+}
+
+.Journal-Manage table tr th
+{
+    padding: 15px;
+    color: #fff;
+    background-color: #333;
+}
+
+.Journal-Manage table tr td
+{
+    max-width: 150px;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 3px solid #eee;
+}
+
+.Journal-Manage form
+{
+    margin: auto;
+    width: 100%;
+}
+
+.Journal-Manage form label
+{
+    display: inline-block;
+    font-size: 18px;
+    width: 200px;
+    margin: 25px;
+}
+
+.Journal-Manage form input
+{
+    padding: 5px;
+    width: 700px;
+    font-size: 18px;
+    font-family: 'lato';
+}
+
+.Journal-Manage form select
+{
+    padding: 5px;
+    width: 714.5px;
+    font-size: 18px;
+    font-family: 'lato';
+}
+
+.Journal-Manage form textarea
+{
+    padding: 5px;
+    width: 702px;
+    height: 250px;
+    font-size: 18px;
+    font-family: 'lato';
+}
+
+.Journal-Manage form button
+{
+    padding: 7px;
+    display: inline-block;
+    width: 150px;
+    margin-left: 253px;
+    font-size: 18px;
+    border: none;
+}
+
+.Journal-Manage form a
+{
+    padding: 7px;
+    vertical-align: -1px;
+    display: inline-block;
+    margin-left: 407px;
+    width: 140px;
+    font-size: 18px;
+}
+
+/*________________________________________|Article-Manage|________________________________________*/
+
+.Article-Manage
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.Article-Manage h1
+{
+    color:#333;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Article-Manage table
+{
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.Article-Manage table tr
+{
+    text-align: center;
+}
+
+.Article-Manage table tr th
+{
+    padding: 15px;
+    color: #fff;
+    background-color: #333;
+}
+
+.Article-Manage table tr td
+{
+    max-width: 150px;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+}
+
+.Article-Manage #link
+{
+    text-decoration: none;
+    color: #0066ff;
+}
+
+.Article-Manage #link:hover
+{
+    color: crimson;
+}
+
+/*________________________________________|Review-Manage|________________________________________*/
+
+.Review-Manage
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.Review-Manage h1
+{
+    color:#333;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Review-Manage h3
+{
+    display: inline-block;
+    margin: 0px 25px;
+}
+
+.Review-Manage form
+{
+    margin: 15px 25px;
+}
+
+.Review-Manage form label
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.Review-Manage form select
+{
+    font-size: 18px;
+    height: 30.5px;
+}
+
+.Review-Manage form button
+{
+    font-size: 18px;
+    margin-left: 15px;
+    border: none;
+}
+
+.Review-Manage table
+{
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.Review-Manage table tr
+{
+    text-align: center;
+}
+
+.Review-Manage table tr th
+{
+    padding: 15px;
+    color: #fff;
+    background-color: #333;
+}
+
+.Review-Manage table tr td
+{
+    max-width: 150px;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+}
+
+/*________________________________________|Article-New|________________________________________*/
+
+.Article-New
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.Article-New h1
+{
+    color: #333;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Article-New form
+{
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+}
+
+.Article-New form label
+{
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+}
+
+.Article-New form #txt-label
+{
+    vertical-align: 135px;
+}
+
+.Article-New form input
+{
+    display: inline-block;
+    margin: auto;
+    width: 70.3%;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Article-New form select
+{
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 71%;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Article-New form textarea
+{
+    display: inline-block;
+    margin: 25px auto 0px auto;
+    width: 70%;
+    height: 150px;
+    padding: 5px;
+    font-family: 'lato';
+    font-size: 20px;
+}
+
+.Article-New form #File
+{
+    display: inline-block;
+    width: 50%;
+    padding: 10px 10px 3px 10px;
+    margin: 25px auto;
+    background-color: #fff;
+    border: solid 1px #555;
+    border-radius: 3px;
+}
+
+.Article-New form button
+{
+    vertical-align: 0.5px;
+    margin-left: 15px;
+    width: 95px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+}
+
+/*________________________________________|Article-MyArticles|________________________________________*/
+
+.Article-MyArticles
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.Article-MyArticles h1
+{
+    color: #333;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Article-MyArticles table
+{
+    display: table;
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.Article-MyArticles table tr
+{
+    text-align: center;
+}
+
+.Article-MyArticles table tr th
+{
+    padding: 15px;
+    color: #fff;
+    background-color: #333;
+}
+
+.Article-MyArticles table tr td
+{
+    max-width: 150px;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+}
+
+.Article-MyArticles table #link
+{
+    text-decoration: none;
+    color: #0066ff;
+}
+
+.Article-MyArticles table #link:hover
+{
+    color: crimson;
+}
+
+/*________________________________________|Article-Reviews|________________________________________*/
+
+.Article-Reviews
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.Article-Reviews h1
+{
+    color: #333;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Article-Reviews table
+{
+    display: table;
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.Article-Reviews table tr
+{
+    text-align: center;
+}
+
+.Article-Reviews table tr th
+{
+    padding: 15px;
+    color: #fff;
+    background-color: #333;
+}
+
+.Article-Reviews table tr td
+{
+    max-width: 150px;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+}
+
+/*________________________________________|Article-Feedback|________________________________________*/
+
+.Article-Feedback
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.Article-Feedback h1
+{
+    color: #333;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+.Article-Feedback #info
+{
+    display: table;
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+.Article-Feedback #info caption
+{
+    padding: 5px;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, crimson, orangered);
+}
+
+.Article-Feedback #info tr th
+{
+    width: 15%;
+    padding: 15px;
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #111;
+}
+
+.Article-Feedback #info tr td
+{
+    max-width: 150px;
+    word-wrap: break-word;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #111;
+}
+
+.Article-Feedback h2
+{
+    margin-left: 25px;
+}
+
+.Article-Feedback #txt
+{
+    margin: auto;
+    width: 94%;
+    padding: 15px;
+    min-height: 100px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.Article-Feedback #feedback
+{
+    margin-left: 25px;
+    padding: 5px;
+    min-width: 500px;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 0px 25px 0px 25px;
+}
+
+.Article-Feedback #feedback tr
+{
+    height: 35px;
+}
+
+.Article-Feedback #Review
+{
+    width: 525px;
+}
+
+.Article-Feedback #Review label
+{
+    font-size: 18px;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.Article-Feedback #Review textarea
+{
+    font-size: 18px;
+    width: calc(100% - 150px);
+    height: 255px;
+}
+
+.Article-Feedback #Review button
+{
+    margin-left: 145px;
+    padding: 5px;
+    width: 70px;
+    font-size: 18px;
+    border: none;
+}
+
+.Article-Feedback #Review a
+{
+    vertical-align: -1.5px;
+    margin-left: 205px;
+    width: 70px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#Vote {
+    position: absolute;
+    right: 25px;
+    height: 300px;
+    background-color: #fff;
+    border-collapse: collapse;
+} #Vote tr td {
+    width: 300px;
+    padding: 7px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #000;
+} #Vote tr td a {
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+} #Vote tr td a:hover {
+    color: #fff;
+    background-color: crimson;
+    border-radius: 5px;
+    box-shadow: #333 0px 0px 3px;
+}

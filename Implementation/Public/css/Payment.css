@@ -1,0 +1,341 @@
+/*________________________________________|Payment|________________________________________*/
+
+.Pay-Method
+{
+    position: relative;
+    top: 190px;
+    padding: 15px;
+    margin: auto;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: #333 0px 0px 5px;
+}
+
+.Pay-Method h1
+{
+    text-align: center;
+}
+
+.Pay-Method i
+{
+    position: relative;
+    left: 45px;
+}
+
+.Pay-Method a
+{
+    margin: auto;
+    display: block;
+    width: 300px;
+    padding: 7px 5px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #0066ff;
+    opacity: 0.7;
+}
+
+.Pay-Method a:hover
+{
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: #333 0px 0px 3px;
+}
+
+.Pay-Credit
+{
+    position: relative;
+    top: 115px;
+    padding: 15px;
+    margin: auto;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: #333 0px 0px 3px;
+}
+
+.Pay-Credit h1
+{
+    text-align: center;
+}
+
+.Pay-Credit form
+{
+    margin: auto;
+    width: 80%;
+}
+
+.Pay-Credit form #CardName, .Pay-Credit form #CardNumber
+{
+    width: 310px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.Pay-Credit form #inline
+{
+    display: inline-block;
+}
+
+.Pay-Credit form #EXP, .Pay-Credit form #CVC
+{
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.Pay-Credit form #Pay, .Pay-Credit form #Reset
+{
+    padding: 5px;
+    width: 100px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: springgreen;
+    opacity: 0.9;
+    border: none;
+}
+
+.Pay-Credit form #Back
+{
+    position: relative;
+    top: 0.5px;
+    left: 15px;
+    display: inline-block;
+    padding: 6px;
+    width: 85px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: crimson;
+}
+
+.Pay-Credit form #Pay:hover, .Pay-Credit form #Reset:hover, .Pay-Credit form #Back:hover
+{
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: #333 0px 0px 3px;
+}
+
+.Pay-Fawry
+{
+    position: relative;
+    top: 135px;
+    padding: 15px;
+    margin: auto;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: #333 0px 0px 3px;
+}
+
+.Pay-Fawry h1
+{
+    text-align: center;
+}
+
+
+.Pay-Fawry form
+{
+    margin: auto;
+    width: 80%;
+}
+
+.Pay-Fawry form input
+{
+    width: 310px;
+    height: 25px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.Pay-Fawry form #Pay, .Pay-Fawry form #Reset
+{
+    padding: 5px;
+    width: 100px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: springgreen;
+    opacity: 0.9;
+    border: none;
+}
+
+.Pay-Fawry form #Back
+{
+    position: relative;
+    top: 0.5px;
+    left: 15px;
+    display: inline-block;
+    padding: 6px;
+    width: 85px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: crimson;
+}
+
+.Payment-Products
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.Payment-Products h1
+{
+    color: #333;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Payment-Products table
+{
+    display: table;
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.Payment-Products table tr
+{
+    text-align: center;
+}
+
+.Payment-Products table tr th
+{
+    padding: 15px;
+    color: #fff;
+    background-color: #333;
+}
+
+.Payment-Products table tr td
+{
+    max-width: 150px;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+}
+
+.Payment-Invoice
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.Payment-Invoice h2
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333
+}
+
+.Payment-Invoice #Paper
+{
+    width: fit-content;
+    padding: 25px 50px;
+    min-height: 625px;
+    background-color: #fff;
+}
+
+.Payment-Invoice #Paper h2
+{
+    font-size: 35px;
+}
+
+.Payment-Invoice #Paper form
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.Payment-Invoice #Paper form label
+{
+    margin: 5px 0px;
+    display: inline-block;
+    width: 100px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.Payment-Invoice #Paper form input
+{
+    width: 97px;
+    font-size: 18px;
+    color: #000;
+    background-color: transparent;
+    border: none;
+}
+
+.Payment-Invoice #Paper table
+{
+    font-size: 18px;
+    margin-bottom: 25px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Payment-Invoice #Paper table tr
+{
+    height: 35px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.Payment-Invoice #Paper table tr th
+{
+    color: #fff;
+    background-color: midnightblue;
+}
+
+.Payment-Invoice #Paper table tr td
+{
+    padding: 0px 7px;
+    border: 1px solid #333;
+}
+
+.PayMethod {
+    margin: 25px;
+} .PayMethod h2 {
+    text-indent: 180px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333
+} .PayMethod form {
+    margin: auto;
+    width: 67%;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+} .PayMethod span {
+    display: inline-block;
+} .PayMethod b {
+    margin-left: 1em;
+    font-size: 18px;
+} .PayMethod label {
+    display: inline-block;
+    margin: 0px 1em;
+    font-size: 18px;
+} .PayMethod input {
+    margin: 0 1em;
+    padding: 5px;
+    width: 300px;
+    font-size: 18px;
+} .PayMethod #Price {
+    width: 70px;
+    margin: 0;
+    text-align: center;
+} .PayMethod button {
+    font-size: 18px;
+    border: none;
+}

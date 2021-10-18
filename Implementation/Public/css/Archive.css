@@ -1,0 +1,70 @@
+.Archive {
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+} .Archive h1 {
+    padding: 5px 25px;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #222;
+    background-color: #ddd;
+    border: 1px solid #fff;
+    border-radius: 3px;
+} .Archive #Links {
+    display: flex;
+} .Archive #Links a {
+    flex: 50%;
+    margin: 5px;
+    padding: 50px;
+    font-size: 25px;
+    text-indent: -150px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, deeppink, orange);
+} .Archive table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+} .Archive table tr {
+    text-align: center;
+    background-color: #fff;
+} .Archive table tr th {
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #222;
+    background-color: #fff;
+} .Archive table tr td {
+    padding: 5px;
+    font-size: 18px;
+    color: #0066ff;
+    border: 1px solid #222;
+} .Archive table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.Publication {
+    margin: 25px;
+} .Publication h1 {
+
+} .Publication section {
+
+} .Publication span {
+    display: flex;
+} .Publication span h3 {
+    width: calc(fit-content + 25px);
+    text-transform: uppercase;
+    color: #0066ff;
+} .Publication span hr {
+    flex: auto;
+    height: 5px;
+    margin-top: 35px;
+    margin-left: 5px;
+    background-color: #0066ff;
+    border: none;
+} .Publication p {
+    margin: 1em;
+    line-height: 25px;
+}

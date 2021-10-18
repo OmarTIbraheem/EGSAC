@@ -1,0 +1,291 @@
+/*________________________________________|User-Login|________________________________________*/
+.User-Login {
+    position: relative;
+    top: 21.5%;
+} .User-Login form {
+    padding: 1em;
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: #333 0px 0px 3px;
+} .User-Login form h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+} .User-Login form label {
+    display: block;
+    margin-left: 95px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 1px;
+} .User-Login form input {
+    display: block;
+    padding: 5px;
+    margin-left: 95px;
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 3px;
+    border: none;
+    box-shadow: #333 0px 0px 1px;
+} .User-Login form p {
+    text-align: center;
+} .User-Login form p a{
+    text-decoration: none;
+    color: #0066ff;
+} .User-Login form p a:hover{
+    color: crimson;
+} .User-Login form input:hover {
+    background-color: #ddd;
+} .User-Login form #Log:hover {
+    box-shadow: #333 0px 0px 5px;
+    transition: ease-in 0.15s;
+} .ErrorLogin {
+    font-family: 'Raleway-Semibold';
+    position: absolute;
+    top: 0;
+    left: 34.28%;
+    width: 482.7px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(216, 61, 92);
+    border-radius: 15px 15px 0px 0px;
+}
+
+/*________________________________________|User-Reg|________________________________________*/
+
+.User-Reg
+{
+    position: relative;
+    top: 16.5%;
+} .User-Reg form {
+    position: relative;
+    top: 15%;
+    padding: 1em;
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: #333 0px 0px 3px;
+}  .User-Reg form span {
+    display: inline-block;
+    margin-left: 16px;
+} .User-Reg form h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+} .User-Reg form label {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 1px;
+} .User-Reg form input, .User-Reg form select {
+    display: inline-block;
+    padding: 5px;
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 3px;
+    border: none;
+    box-shadow: #333 0px 0px 1px;
+} .User-Reg form input:hover {
+    background-color: #ddd;
+} .User-Reg form #Reg:hover {
+    box-shadow: #333 0px 0px 5px;
+    transition: ease-in 0.15s;
+} .ErrorReg {
+    font-family: 'Raleway-Semibold';
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    width: 230px;
+    margin: auto;
+    color: #ff0000;
+}
+
+/*________________________________________|User-Manage|________________________________________*/
+
+.User-Manage
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.User-Manage h1
+{
+    color: #333;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.User-Manage form
+{
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.User-Manage form input
+{
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.User-Manage table
+{
+    display: table;
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.User-Manage table tr
+{
+    text-align: center;
+}
+
+.User-Manage table tr th
+{
+    padding: 15px;
+    color: #fff;
+    background-color: #333;
+}
+
+.User-Manage table tr td
+{
+    max-width: 150px;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+}
+
+/*________________________________________|User-NewType|________________________________________*/
+
+.User-NewType
+{
+    margin: 25px;
+    min-height: 580px;
+    margin-bottom: 35px;
+}
+
+.User-NewType h1
+{
+    color: #333;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.User-NewType form
+{
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.User-NewType form label
+{
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.User-NewType form input
+{
+    padding: 5px;
+    margin: 10px 0px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.User-NewType form button
+{
+    border: none;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+/*________________________________________|User-Donate|________________________________________*/
+
+.User-Donate
+{
+    position: relative;
+    top: 85px;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: #333 0px 0px 5px;
+}
+
+.User-Donate h1
+{
+    text-align: center;
+}
+
+.User-Donate form
+{
+    margin: auto;
+    width: 63%;
+}
+
+.User-Donate form label
+{
+    font-size: 18px;
+}
+
+.User-Donate form input
+{
+    font-size: 18px;
+    width: 300px;
+    height: 35px;
+}
+
+.User-Donate form p
+{
+    padding: 3px;
+    margin: 0;
+    position: relative;
+    color: #0066ff;
+}
+
+.User-Donate form button
+{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    background-color: springgreen;
+    opacity: 0.9;
+}
+
+.User-Donate form button:hover
+{
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: #333 0px 0px 3px;
+}

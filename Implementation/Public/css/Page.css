@@ -1,0 +1,96 @@
+.Landing {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom left, crimson, #eee);
+    clip-path: polygon(9% 0, 100% 0, 100% 84%, 66% 25%);
+} .Index {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+} .Index h1 {
+    position: relative;
+    top: -50px;
+    text-transform: uppercase;
+    font-size: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #a1a1a1;
+}
+
+.Home {
+    margin: 25px;
+} .Home h1{
+    padding: 1em;
+    margin-bottom: 1em;;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    color: navy;
+    background-color: #a1a1a1;
+    box-shadow: #333 3px 3px 5px;
+}.SympSlides img {
+    display: block;
+    width: 100%;
+    height: 550px;
+} .Home section {
+    display: block;
+    margin-top: -1em;
+} .Home section p {
+    padding: 1em;
+    padding: 100px 50px;
+    font-size: 18px;
+    line-height: 50px;
+    background-color: #fff;
+}
+
+.About {
+    margin: 25px;
+} .About h1 {
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+    background-color: crimson;
+    border-radius: 0px 1000px 0px 0px;
+} .About section {
+    display: block;
+    padding: 1em;
+    margin-top: -1em;
+    background-color: #fff;
+    border-radius: 0px 0px 0px 100px;
+} .About section p {
+    display: inline-block;
+    padding: 1em;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.Contact {
+    margin: 25px;
+} .Contact h1 {
+
+} .Contact span {
+    display: inline-block;
+} .Contact h3 {
+    padding: 1em;
+    width: 350px;
+    color: #fff;
+    background-color: darkolivegreen;
+} .Contact .info {
+    padding: 1em;
+    margin-top: -1em;
+    width: 350px;
+    font-size: 18px;
+    line-height: 35px;
+    background-image: linear-gradient(to bottom, #a1a1a1, #ccc, #eee);
+    border-radius: 0px 0px 25px 25px;
+    border: 1px solid #000;
+}
