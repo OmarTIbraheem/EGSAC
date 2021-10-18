@@ -8,7 +8,7 @@ This is a complete Software Development Life Cycle (SDLC) for a JMS web applicat
 - Implementation of MVC Framework
 - MySQL Database
 
-## Features
+## Implementation Features
 - Multiple User Interface | Hierarchical
 - Configurable Payment Methods
 - Admin Panel (Dashboard)
